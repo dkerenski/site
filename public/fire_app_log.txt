@@ -1,0 +1,384 @@
+2014-01-23 11:03:28     error scss/main_style.scss (Line 2: File to import not found or unreadable: loopcast.
+Load paths:
+  /Users/kleverbeast/LiveDj/Samples/onepage-scroll-master/Onepage Cast/scss
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-01-23 11:03:28    create css/main_style.css 
+2014-01-23 11:04:59 overwrite css/main_style.css 
+2014-01-23 11:10:13    remove .sass-cache/ 
+2014-01-23 11:10:13    remove css/main_style.css 
+2014-01-23 11:10:13    create css/main_style.css 
+2014-01-23 11:10:32    remove .sass-cache/ 
+2014-01-23 11:10:32    remove css/main_style.css 
+2014-01-23 11:10:32    create css/main_style.css 
+2014-01-23 11:10:39    remove .sass-cache/ 
+2014-01-23 11:10:39    remove css/main_style.css 
+2014-01-23 11:10:39    create css/main_style.css 
+2014-01-23 11:11:09    remove .sass-cache/ 
+2014-01-23 11:11:09    remove css/main_style.css 
+2014-01-23 11:11:09    create css/main_style.css 
+2014-01-23 11:24:52 overwrite css/main_style.css 
+2014-01-23 11:25:16     error scss/main_style.scss (Line 8 of scss/_loopcast_style.scss: Invalid CSS after "...background-size": expected "}", was ": cover;")
+2014-01-23 11:25:16 overwrite css/main_style.css 
+2014-01-23 11:25:25 overwrite css/main_style.css 
+2014-01-23 11:31:16 identical css/main_style.css 
+2014-01-23 11:31:49 overwrite css/main_style.css 
+2014-01-23 11:31:55 overwrite css/main_style.css 
+2014-01-23 11:35:48 overwrite css/main_style.css 
+2014-01-23 11:36:36 overwrite css/main_style.css 
+2014-01-23 11:48:08 overwrite css/main_style.css 
+2014-01-23 11:50:52 overwrite css/main_style.css 
+2014-01-23 11:51:36 overwrite css/main_style.css 
+2014-01-23 11:51:49 overwrite css/main_style.css 
+2014-01-23 11:52:02 overwrite css/main_style.css 
+2014-01-23 11:52:40 overwrite css/main_style.css 
+2014-01-23 12:08:56 overwrite css/main_style.css 
+2014-01-23 12:09:04 overwrite css/main_style.css 
+2014-01-23 12:09:08 overwrite css/main_style.css 
+2014-01-23 12:09:32 overwrite css/main_style.css 
+2014-01-23 12:12:34 overwrite css/main_style.css 
+2014-01-23 12:12:47 overwrite css/main_style.css 
+2014-01-23 12:13:07 overwrite css/main_style.css 
+2014-01-23 12:14:04 overwrite css/main_style.css 
+2014-01-23 12:14:10 overwrite css/main_style.css 
+2014-01-23 12:15:38 overwrite css/main_style.css 
+2014-01-23 12:15:44 overwrite css/main_style.css 
+2014-01-23 12:16:19 overwrite css/main_style.css 
+2014-01-23 12:21:07 overwrite css/main_style.css 
+2014-01-23 12:21:21 overwrite css/main_style.css 
+2014-01-23 12:21:48 overwrite css/main_style.css 
+2014-01-23 12:22:06 overwrite css/main_style.css 
+2014-01-23 12:22:49 overwrite css/main_style.css 
+2014-01-23 12:28:14 overwrite css/main_style.css 
+2014-01-23 12:34:49 overwrite css/main_style.css 
+2014-01-23 12:35:02 overwrite css/main_style.css 
+2014-01-23 12:35:34 overwrite css/main_style.css 
+2014-01-23 12:35:52 overwrite css/main_style.css 
+2014-01-23 12:36:00 overwrite css/main_style.css 
+2014-01-23 12:36:24 overwrite css/main_style.css 
+2014-01-23 12:38:13     error scss/main_style.scss (Line 48 of scss/_loopcast_style.scss: Invalid CSS after "	font-family:": expected expression (e.g. 1px, bold), was "&.bottom {")
+2014-01-23 12:38:13 overwrite css/main_style.css 
+2014-01-23 12:40:15     error scss/main_style.scss (Line 49 of scss/_loopcast_style.scss: Invalid CSS after "	font-family:": expected expression (e.g. 1px, bold), was "&.bottom {")
+2014-01-23 12:40:15 overwrite css/main_style.css 
+2014-01-23 12:40:41 overwrite css/main_style.css 
+2014-01-23 12:42:04 overwrite css/main_style.css 
+2014-01-23 12:42:10 overwrite css/main_style.css 
+2014-01-23 12:42:24 overwrite css/main_style.css 
+2014-01-23 12:42:29 overwrite css/main_style.css 
+2014-01-23 12:43:39 identical css/main_style.css 
+2014-01-23 12:43:47 overwrite css/main_style.css 
+2014-01-23 12:43:53 overwrite css/main_style.css 
+2014-01-23 12:43:59 overwrite css/main_style.css 
+2014-01-23 12:44:07 overwrite css/main_style.css 
+2014-01-23 12:44:13 overwrite css/main_style.css 
+2014-01-23 12:44:27 overwrite css/main_style.css 
+2014-01-23 12:46:59 overwrite css/main_style.css 
+2014-01-23 12:48:04 overwrite css/main_style.css 
+2014-01-23 12:49:12     error scss/main_style.scss (Line 77 of scss/_loopcast_style.scss: Base-level rules cannot contain the parent-selector-referencing character '&'.)
+2014-01-23 12:49:12 overwrite css/main_style.css 
+2014-01-23 12:49:55 overwrite css/main_style.css 
+2014-01-23 12:50:32 overwrite css/main_style.css 
+2014-01-23 12:52:22 overwrite css/main_style.css 
+2014-01-23 12:52:59 overwrite css/main_style.css 
+2014-01-23 12:53:07 overwrite css/main_style.css 
+2014-01-23 12:54:05 overwrite css/main_style.css 
+2014-01-23 12:54:10 overwrite css/main_style.css 
+2014-01-23 12:54:53 overwrite css/main_style.css 
+2014-01-23 12:54:59 identical css/main_style.css 
+2014-01-23 12:58:17 overwrite css/main_style.css 
+2014-01-23 12:58:29 overwrite css/main_style.css 
+2014-01-23 13:01:01 overwrite css/main_style.css 
+2014-01-23 13:02:12     error scss/main_style.scss (Line 2: File to import not found or unreadable: loopcast_style.
+Load paths:
+  /Users/kleverbeast/LiveDj/Samples/onepage-scroll-master/Onepage Cast/scss
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-01-23 13:02:12 overwrite css/main_style.css 
+2014-01-23 13:02:12     error scss/main_style.scss (Line 2: File to import not found or unreadable: loopcast_style.
+Load paths:
+  /Users/kleverbeast/LiveDj/Samples/onepage-scroll-master/Onepage Cast/scss
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-01-23 13:02:12 identical css/main_style.css 
+2014-01-23 13:02:21     error scss/main_style.scss (Line 2: File to import not found or unreadable: loopcast_style.
+Load paths:
+  /Users/kleverbeast/LiveDj/Samples/onepage-scroll-master/Onepage Cast/scss
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-01-23 13:02:21 identical css/main_style.css 
+2014-01-23 13:02:21     error scss/main_style.scss (Line 2: File to import not found or unreadable: loopcast_style.
+Load paths:
+  /Users/kleverbeast/LiveDj/Samples/onepage-scroll-master/Onepage Cast/scss
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-01-23 13:02:21 identical css/main_style.css 
+2014-01-23 13:02:49     error scss/main_style.scss (Line 3: File to import not found or unreadable: loopcast_style.
+Load paths:
+  /Users/kleverbeast/LiveDj/Samples/onepage-scroll-master/Onepage Cast/scss
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-01-23 13:02:49 overwrite css/main_style.css 
+2014-01-23 13:03:19     error scss/main_style.scss (Line 3: File to import not found or unreadable: loopcast_style.
+Load paths:
+  /Users/kleverbeast/LiveDj/Samples/onepage-scroll-master/Onepage Cast/scss
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-01-23 13:03:19 overwrite css/main_style.css 
+2014-01-23 13:03:19     error scss/main_style.scss (Line 3: File to import not found or unreadable: loopcast_style.
+Load paths:
+  /Users/kleverbeast/LiveDj/Samples/onepage-scroll-master/Onepage Cast/scss
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-01-23 13:03:19 identical css/main_style.css 
+2014-01-23 13:03:26 overwrite css/main_style.css 
+2014-01-23 13:03:34 identical css/main_style.css 
+2014-01-23 13:10:01 overwrite css/main_style.css 
+2014-01-23 13:34:26 overwrite css/main_style.css 
+2014-01-23 13:41:24     error scss/main_style.scss (Line 3: File to import not found or unreadable: custom_css.
+Load paths:
+  /Users/kleverbeast/LiveDj/Samples/onepage-scroll-master/Onepage Cast/scss
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Applications/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  /vendor/assets/stylesheets)
+2014-01-23 13:41:24 overwrite css/main_style.css 
+2014-01-23 13:41:56 overwrite css/main_style.css 
+2014-01-23 13:42:47    create css/main_style.css 
+2014-01-23 13:43:11 overwrite css/main_style.css 
+2014-01-23 13:43:43 overwrite css/main_style.css 
+2014-01-23 13:44:12 overwrite css/main_style.css 
+2014-01-23 13:44:22 overwrite css/main_style.css 
+2014-01-23 13:44:26 overwrite css/main_style.css 
+2014-01-23 13:45:01 overwrite css/main_style.css 
+2014-01-23 13:46:47 overwrite css/main_style.css 
+2014-01-23 13:49:04 overwrite css/main_style.css 
+2014-01-23 13:49:41 overwrite css/main_style.css 
+2014-01-23 13:51:47 overwrite css/main_style.css 
+2014-01-23 13:52:11 overwrite css/main_style.css 
+2014-01-23 13:52:16 overwrite css/main_style.css 
+2014-01-23 14:05:58 overwrite css/main_style.css 
+2014-01-23 14:06:17 overwrite css/main_style.css 
+2014-01-23 14:18:09 overwrite css/main_style.css 
+2014-01-23 14:18:39 overwrite css/main_style.css 
+2014-01-23 14:19:27 overwrite css/main_style.css 
+2014-01-23 14:20:19 overwrite css/main_style.css 
+2014-01-23 14:22:01 overwrite css/main_style.css 
+2014-01-23 14:27:00     error scss/main_style.scss (Line 1492 of scss/_loopcast_generic.scss: Invalid CSS after "	background:url(": expected ")", was "../images/exp_b...")
+2014-01-23 14:27:00 overwrite css/main_style.css 
+2014-01-23 14:27:10 overwrite css/main_style.css 
+2014-01-23 14:27:30 overwrite css/main_style.css 
+2014-01-23 14:29:03 overwrite css/main_style.css 
+2014-01-23 14:29:27 overwrite css/main_style.css 
+2014-01-23 14:41:53 overwrite css/main_style.css 
+2014-01-23 14:41:57 identical css/main_style.css 
+2014-01-23 14:51:32 overwrite css/main_style.css 
+2014-01-23 14:52:06 overwrite css/main_style.css 
+2014-01-23 14:52:32 overwrite css/main_style.css 
+2014-01-23 14:52:38 overwrite css/main_style.css 
+2014-01-23 14:52:42 identical css/main_style.css 
+2014-01-23 14:53:55 overwrite css/main_style.css 
+2014-01-23 14:58:13 overwrite css/main_style.css 
+2014-01-23 14:58:47 overwrite css/main_style.css 
+2014-01-23 14:58:58 overwrite css/main_style.css 
+2014-01-23 14:59:11 overwrite css/main_style.css 
+2014-01-23 14:59:15 overwrite css/main_style.css 
+2014-01-23 15:09:10 overwrite css/main_style.css 
+2014-01-23 15:09:41 overwrite css/main_style.css 
+2014-01-23 15:10:23 overwrite css/main_style.css 
+2014-01-23 15:10:58 overwrite css/main_style.css 
+2014-01-23 15:11:34 overwrite css/main_style.css 
+2014-01-23 15:11:36 overwrite css/main_style.css 
+2014-01-23 15:11:40 overwrite css/main_style.css 
+2014-01-23 15:11:43 overwrite css/main_style.css 
+2014-01-23 15:12:53 overwrite css/main_style.css 
+2014-01-23 15:14:33 overwrite css/main_style.css 
+2014-01-23 15:14:40 identical css/main_style.css 
+2014-01-23 15:15:02 overwrite css/main_style.css 
+2014-01-23 15:15:33 overwrite css/main_style.css 
+2014-01-23 15:16:10 overwrite css/main_style.css 
+2014-01-23 15:16:33 overwrite css/main_style.css 
+2014-01-23 15:16:37 overwrite css/main_style.css 
+2014-01-23 15:18:25 overwrite css/main_style.css 
+2014-01-23 15:18:35 overwrite css/main_style.css 
+2014-01-23 15:19:11 overwrite css/main_style.css 
+2014-01-23 15:19:23     error scss/main_style.scss (Line 53 of scss/_custom_css.scss: Invalid CSS after "...ding-left: 0px ": expected ";", was "!importatn;")
+2014-01-23 15:19:23 overwrite css/main_style.css 
+2014-01-23 15:19:24 overwrite css/main_style.css 
+2014-01-23 15:23:45 overwrite css/main_style.css 
+2014-01-23 15:25:03 overwrite css/main_style.css 
+2014-01-23 15:25:06 overwrite css/main_style.css 
+2014-01-23 15:27:05 overwrite css/main_style.css 
+2014-01-23 15:27:27 overwrite css/main_style.css 
+2014-01-23 15:28:02 overwrite css/main_style.css 
+2014-01-23 15:28:13 overwrite css/main_style.css 
+2014-01-23 15:28:16 overwrite css/main_style.css 
+2014-01-23 15:29:33 overwrite css/main_style.css 
+2014-01-23 15:29:39 overwrite css/main_style.css 
+2014-01-23 15:29:44 overwrite css/main_style.css 
+2014-01-23 15:29:58 overwrite css/main_style.css 
+2014-01-23 17:46:43 overwrite css/main_style.css 
+2014-01-23 17:46:50 overwrite css/main_style.css 
+2014-01-23 17:58:06 overwrite css/main_style.css 
+2014-01-23 17:58:23 overwrite css/main_style.css 
+2014-01-23 18:01:58 overwrite css/main_style.css 
+2014-01-23 18:02:22 identical css/main_style.css 
+2014-01-23 18:02:24 overwrite css/main_style.css 
+2014-01-23 18:02:56 overwrite css/main_style.css 
+2014-01-23 18:05:47 overwrite css/main_style.css 
+2014-01-23 18:06:13 overwrite css/main_style.css 
+2014-01-23 18:06:17 overwrite css/main_style.css 
+2014-01-23 18:06:28 overwrite css/main_style.css 
+2014-01-23 18:06:51 overwrite css/main_style.css 
+2014-01-23 18:07:47 overwrite css/main_style.css 
+2014-01-23 18:11:12 overwrite css/main_style.css 
+2014-01-23 18:11:17 overwrite css/main_style.css 
+2014-01-23 18:12:58 overwrite css/main_style.css 
+2014-01-23 18:13:42 overwrite css/main_style.css 
+2014-01-23 18:14:08 overwrite css/main_style.css 
+2014-01-23 18:16:15 overwrite css/main_style.css 
+2014-01-23 18:16:51 overwrite css/main_style.css 
+2014-01-23 18:16:53 identical css/main_style.css 
+2014-01-23 18:18:33 overwrite css/main_style.css 
+2014-01-23 18:18:39 overwrite css/main_style.css 
+2014-01-23 18:19:35 overwrite css/main_style.css 
+2014-01-23 18:20:16 overwrite css/main_style.css 
+2014-01-23 18:21:36 overwrite css/main_style.css 
+2014-01-23 18:21:58 identical css/main_style.css 
+2014-01-23 18:23:35 overwrite css/main_style.css 
+2014-01-23 18:23:47 overwrite css/main_style.css 
+2014-01-23 18:23:56 overwrite css/main_style.css 
+2014-01-23 18:24:08 overwrite css/main_style.css 
+2014-01-23 18:24:21 overwrite css/main_style.css 
+2014-01-23 18:24:30 overwrite css/main_style.css 
+2014-01-23 18:24:41 overwrite css/main_style.css 
+2014-01-23 18:24:45 overwrite css/main_style.css 
+2014-01-23 18:24:52 overwrite css/main_style.css 
+2014-01-23 18:25:02 overwrite css/main_style.css 
+2014-01-23 18:25:08 overwrite css/main_style.css 
+2014-01-23 18:25:17 overwrite css/main_style.css 
+2014-01-23 18:25:22 overwrite css/main_style.css 
+2014-01-23 18:25:29 overwrite css/main_style.css 
+2014-01-23 18:25:36 overwrite css/main_style.css 
+2014-01-23 18:25:43 overwrite css/main_style.css 
+2014-01-23 18:25:56 overwrite css/main_style.css 
+2014-01-23 18:26:24 overwrite css/main_style.css 
+2014-01-23 18:26:27 overwrite css/main_style.css 
+2014-01-23 18:26:34 overwrite css/main_style.css 
+2014-01-23 18:26:40 overwrite css/main_style.css 
+2014-01-23 18:26:58 overwrite css/main_style.css 
+2014-01-23 18:27:03 overwrite css/main_style.css 
+2014-01-23 18:27:36 overwrite css/main_style.css 
+2014-01-23 18:27:53 overwrite css/main_style.css 
+2014-01-23 18:28:23 overwrite css/main_style.css 
+2014-01-23 18:28:36     error scss/main_style.scss (Line 2563 of scss/_loopcast_generic.scss: Invalid CSS after "// }": expected "}", was "")
+2014-01-23 18:28:36 overwrite css/main_style.css 
+2014-01-23 18:28:45 overwrite css/main_style.css 
+2014-01-23 18:28:55 overwrite css/main_style.css 
+2014-01-23 18:29:04 overwrite css/main_style.css 
+2014-01-23 18:29:16 overwrite css/main_style.css 
+2014-01-23 18:29:27 overwrite css/main_style.css 
+2014-01-23 18:29:34 overwrite css/main_style.css 
+2014-01-23 18:29:42 overwrite css/main_style.css 
+2014-01-23 18:29:53 overwrite css/main_style.css 
+2014-01-23 18:29:59 overwrite css/main_style.css 
+2014-01-23 18:30:04 overwrite css/main_style.css 
+2014-01-23 18:30:12 overwrite css/main_style.css 
+2014-01-23 18:30:16 overwrite css/main_style.css 
+2014-01-23 18:30:25 overwrite css/main_style.css 
+2014-01-23 18:30:29 overwrite css/main_style.css 
+2014-01-23 18:30:40 overwrite css/main_style.css 
+2014-01-23 18:30:51 overwrite css/main_style.css 
+2014-01-23 18:30:59 overwrite css/main_style.css 
+2014-01-23 18:31:07 overwrite css/main_style.css 
+2014-01-23 18:31:18 identical css/main_style.css 
+2014-01-23 18:31:28 overwrite css/main_style.css 
+2014-01-23 18:31:50 overwrite css/main_style.css 
+2014-01-23 18:32:07 overwrite css/main_style.css 
+2014-01-23 18:32:16 overwrite css/main_style.css 
+2014-01-23 18:32:28 overwrite css/main_style.css 
+2014-01-23 18:32:38 overwrite css/main_style.css 
+2014-01-23 18:32:58 overwrite css/main_style.css 
+2014-01-23 18:33:08 overwrite css/main_style.css 
+2014-01-23 18:33:20 overwrite css/main_style.css 
+2014-01-23 18:33:27 overwrite css/main_style.css 
+2014-01-23 18:33:30 overwrite css/main_style.css 
+2014-01-23 18:33:36 overwrite css/main_style.css 
+2014-01-23 18:33:39 overwrite css/main_style.css 
+2014-01-23 18:33:42 overwrite css/main_style.css 
+2014-01-23 18:33:52 overwrite css/main_style.css 
+2014-01-23 18:33:58 overwrite css/main_style.css 
+2014-01-23 18:34:00 overwrite css/main_style.css 
+2014-01-23 18:34:33 overwrite css/main_style.css 
+2014-01-23 18:36:17 identical css/main_style.css 
+2014-01-23 18:41:25 overwrite css/main_style.css 
+2014-01-23 18:41:59 overwrite css/main_style.css 

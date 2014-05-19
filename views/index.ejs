@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title><%= title %></title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom Theme CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">
+                    <i class="fa fa-bolt"></i>  <span class="light">nga</span> Dodona
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#team">Team</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Start</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <section class="intro">
+        <div class="intro-body">
+            <%- msg %>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">DODONA</h1>
+                        <p class="intro-text">A dedicated developer-led team. We are a close-knit group that have an innovative approach to programming.</p>
+                        <div class="page-scroll">
+                            <a href="#about" class="btn btn-circle">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Modus operandi</h2>
+                <p>We are a team of developers that take a straight, dedicated and innovative approach to web application and software building. We think that working on projects should be an alliance of the project's founders and the developers/engineers working in the project.</p>
+                <p>This is why we are an assembly of tech-only that work closely to produce progressive and advanced applications for founders.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="content-section text-center">
+        <div class="download-section" id="team">
+            <div class="container">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Our Assembly</h2>
+                    <p>We have always pushed ourselves in using the latest tech and methods to develop our applications, <b>we have never built the same app twice</b>.</p>
+
+                    <div class="row">
+                      <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail" style="background-image:url('img/iyad.jpg'); background-position: center center; background-size: auto 100%;">
+                          <div class="caption">
+                            <h3>Iyad Assaf</h3>
+                            <p>Middleware / Server-side programmer</p>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail" style="background-image:url('img/ulp.jpg'); background-position: center center; background-size: 100% auto;">
+                          <div class="caption">
+                            <h3>Ulpian Morina</h3>
+                            <p>Lead Developer / Server-side &amp; API programmer</p>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail" style="background-image:url('img/ifko.jpg'); background-position: center center; background-size: 100% auto;">
+                          <div class="caption">
+                            <h3>Ivaylo Danev</h3>
+                            <p>Front-end UI &amp; UX developer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail" style="background-image:url('img/rad.jpg'); background-position: center center; background-size: auto 100%;">
+                          <div class="caption">
+                            <h3>Marian Radev</h3>
+                            <p>Front-end &amp; Graphic developer</p>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail" style="background-image:url('img/ram.jpg'); background-position: center center; background-size: auto 100%;">
+                          <div class="caption">
+                            <h3>Taulant Ramabaja</h3>
+                            <p>Project manager / Engineer</p>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail" style="background-image:url('img/ij.jpg'); background-position: center center; background-size: auto 100%;">
+                          <div class="caption">
+                            <h3>Ijtaba Hussain</h3>
+                            <p>Mobile &amp; server-side engineer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2" style="padding-bottom:100px;">
+                <h2>Let's get started</h2>
+                <p>We receive a number of projects at a time and we take time to choose a project because once we do pick a project to work on we completely dedicate ourselves on that <b>one</b> project. Therefore we cannot garentuee that we can work on your project but we can garentuee that we will take all our time and knowledge to know more about your project before making a decision.</p>
+                <p>
+                    <form action="/" method="post">
+                    <input type="text" placeholder="Your name" name="name">
+                    <input type="text" placeholder="Short description of your app/project/idea" name="desc">
+                    <input type="text" placeholder="Email" name="email">
+                    <input type="submit" value="Submit" class="subbut">
+                    </form>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core JavaScript Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
+</html>
