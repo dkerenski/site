@@ -39,7 +39,7 @@ app.post('/', function(req,res)
     // email
     var serv = emailjs.server.connect({
       user:     "ulpianmorina@gmail.com",
-      password: "Ulp11991",
+      password: "ulp1an1991",
       host:     "smtp.gmail.com",
       ssl:      true
     });
