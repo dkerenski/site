@@ -17,3 +17,34 @@
 	padding: 100px 0;
 	width: 100%;
 }
+
+.counter-img {
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	display: block;
+}
+
+.git {
+	background-image: url(../img/counter_g.png);
+}
+
+.pizza {
+	background-image: url(../img/counter_p.png);
+}
+
+.lines {
+	background-image: url(../img/counter_l.png);
+}
+
+.coffee {
+	background-image: url(../img/counter_c.png);
+}
+
+.full-width {
+	margin-right: 0;
+	margin-left: 0;
+}
