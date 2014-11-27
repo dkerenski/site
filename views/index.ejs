@@ -12,6 +12,7 @@
     <!-- Bootstrap Core CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
+
     <!-- Fonts -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -19,7 +20,7 @@
 
     <!-- Custom Theme CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
-
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
@@ -72,6 +73,23 @@
                             </a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="counter" class="container text-center">
+        <div class="row">
+            <div class="counter-hld col-lg-8 col-lg-offset-2">
+                <div>
+                    <div class="git-counter count numbers col-xs-4 col-sm-4 col-md-4 col-lg-4">52,147</div>
+                    <div class="coffee-counter count numbers col-xs-4 col-sm-4 col-md-4 col-lg-4">1,9583</div>
+                    <div class="pizza-counter count numbers col-xs-4 col-sm-4 col-md-4 col-lg-4">12345</div>
+                </div>
+                <div>
+                    <div class="count titles col-xs-4 col-sm-4 col-md-4 col-lg-4">Git commits</div>
+                    <div class="count titles col-xs-4 col-sm-4 col-md-4 col-lg-4">Coffe cups consumed</div>
+                    <div class="count titles col-xs-4 col-sm-4 col-md-4 col-lg-4">Pizzas eaten</div>
                 </div>
             </div>
         </div>
@@ -197,9 +215,44 @@
     <script src="/javascripts/bootstrap.min.js"></script>
     <script src="/javascripts/jquery.easing.min.js"></script>
     <script src="/javascripts/jquery.scrollpath.min.js"></script>
-
+    
     <!-- Custom Theme JavaScript -->
     <script src="/javascripts/grayscale.js"></script>
+
+    <!-- CouterUp JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="javascripts/jquery.counterup.min.js"></script>
+
+    <script>
+        $(document).ready(function( $ ) {
+            $('.git-counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+
+        $(document).ready(function( $ ) {
+            $('.coffee-counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+
+
+        $(document).ready(function( $ ) {
+            $('.pizza-counter').counterUp({
+                delay: 20,
+                time: 1000
+            });
+        });
+
+        $(document).ready(function( $ ) {
+            $('.code-counter').counterUp({
+                delay: 10,
+                time: 2500
+            });
+        });
+    </script>
 </body>
 
 </html>

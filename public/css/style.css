@@ -1,0 +1,19 @@
+ /*Coutner Styles*/
+
+.titles {
+    font-size: 20px;
+}
+.numbers {
+    font-size: 56px;
+}
+
+.count {
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #A22C2C;
+}
+
+#counter {
+	background: #fff;
+	padding: 100px 0;
+	width: 100%;
+}
