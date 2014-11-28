@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -22,15 +22,8 @@
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
 
-    <!-- timeline css -->
-    <link rel="css/stylesheet" type="text/css" href="css/timeline/demo.css" />
-    <link rel="css/stylesheet" type="text/css" href="css/timeline/style.css" />
-    <!--[if lt IE 9]>
-            <link rel="stylesheet" type="text/css" href="css/timeline/styleIE.css" />
-    <![endif]-->
-
-    <script type="text/javascript" src="/javascripts/timeline/modernizr.custom.11333.js"></script>
-
+    <!-- css for js use -->
+    <link id="css" rel="stylesheet" type="text/css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
@@ -271,8 +264,8 @@
     <script src="/javascripts/bootstrap.min.js"></script>
     <script src="/javascripts/jquery.easing.min.js"></script>
 
-    <!-- Timeline js -->
-    <script src="/javascripts/timeline/timeline.js"></script>
+    <!-- Skrollr js -->
+    <script src="/javascripts/skrollr.min.js"></script>
     
     <!-- Custom Theme JavaScript -->
     <script src="/javascripts/grayscale.js"></script>
@@ -288,8 +281,18 @@
 
 
 
-
     <script>
+
+        var startPoint = $("#about").offset().top;
+        var endPoint = $("#counter").offset().top - $(window).height();
+
+        $(document).scroll(function(){
+            if($(this).scrollTop() > startPoint && $(this).scrollTop() < endPoint)
+            {   
+                console.log('over here')
+            }
+        });
+
         $(document).ready(function populateCounters() {
 
             //Set the two dates
