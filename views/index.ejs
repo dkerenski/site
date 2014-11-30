@@ -352,6 +352,9 @@
         </div>
     </section>
 
+    <!-- Scroll -->
+    <script src="/javascripts/jquery.mCustomScrollbar.concat.min.js"></script>
+
     <!-- Core JavaScript Files -->
     <script src="/javascripts/jquery.min.js"></script>
     <script src="/javascripts/bootstrap.min.js"></script>
@@ -384,69 +387,60 @@
 
     <script>
 
-        // var startPoint = $("#about").offset().top;
-        // var endPoint = $("#counter").offset().top - $(window).height();
-
-        // $(document).scroll(function(){
-        //     if($(this).scrollTop() > startPoint && $(this).scrollTop() < endPoint)
-        //     {   
-        //         console.log('over here')
-        //     }
-        // });
-
-            
-
-
-            // var MAX = 2;
-            // var rand = Math.floor((Math.random() * MAX) + 1);
-
-            // console.log(rand);
-           
-            // if (rand == 1) {
-            //     function changeText(cont1,cont2,speed){
-            //         var Otext=cont1.text();
-            //         var Ocontent=Otext.split("");
-            //         var i=0;
-            //         function show(){
-            //             if(i<Ocontent.length)
-            //             {       
-            //                 cont2.append(Ocontent[i]);
-            //                 i=i+1;
-            //             };
-            //         };
-            //             var Otimer=setInterval(show,speed); 
-            //     };
-
-            //     $(document).ready(function(){
-            //         changeText($(".from_box"),$(".intro-text"),50);
-            //         clearInterval(Otimer);
-            //     });
-
-            // } else {
-            //       function changeText(cont1,cont2,speed){
-            //             var Otext=cont1.text();
-            //             var Ocontent=Otext.split("");
-            //             var i=0;
-            //             function show(){
-            //                 if(i<Ocontent.length)
-            //                 {       
-            //                     cont2.append(Ocontent[i]);
-            //                     i=i+1;
-            //                 };
-            //             };
-            //                 var Otimer = setInterval(show,speed); 
-            //         };
-                    
-            //         $(document).ready(function(){
-            //             changeText($(".from_box2"),$(".intro-text"),50);
-            //             clearInterval(Otimer);
-            //         });
-            // }
+    (function($){
+            $(window).load(function(){
+                
+                /* all available option parameters with their default values */
+                $("html").mCustomScrollbar({
+                    setWidth:false,
+                    setHeight:false,
+                    setTop:0,
+                    setLeft:0,
+                    axis:"y",
+                    scrollbarPosition:"inside",
+                    scrollInertia:950,
+                    autoDraggerLength:true,
+                    autoHideScrollbar:false,
+                    autoExpandScrollbar:false,
+                    alwaysShowScrollbar:0,
+                    snapAmount:null,
+                    snapOffset:0,
+                    mouseWheel:{
+                        enable:true,
+                        scrollAmount:"auto",
+                        axis:"y",
+                        preventDefault:false,
+                        deltaFactor:"auto",
+                        normalizeDelta:false,
+                        invert:false,
+                        disableOver:["select","option","keygen","datalist","textarea"]
+                    },
+                   
+                    theme:"minimal",
+                    callbacks:{
+                        onInit:false,
+                        onScrollStart:false,
+                        onScroll:false,
+                        onTotalScroll:false,
+                        onTotalScrollBack:false,
+                        whileScrolling:false,
+                        onTotalScrollOffset:0,
+                        onTotalScrollBackOffset:0,
+                        alwaysTriggerOffsets:true,
+                        onOverflowY:false,
+                        onOverflowX:false,
+                        onOverflowYNone:false,
+                        onOverflowXNone:false
+                    },
+                    live:false,
+                    liveSelector:null
+                });
+                
+            });
+        })(jQuery);
 
 
         $(document).ready(function populateCounters() {
-       
-
             //Set the two dates
             var millennium = new Date(2013, 5, 1) //Month is 0-11 in JavaScript
             today = new Date()
