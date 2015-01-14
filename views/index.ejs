@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -12,6 +12,7 @@
     <!-- Bootstrap Core CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
+
     <!-- Fonts -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -19,7 +20,10 @@
 
     <!-- Custom Theme CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 
+    <!-- css for js use -->
+    <link id="css" rel="stylesheet" type="text/css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
@@ -57,7 +61,6 @@
         </div>
         <!-- /.container -->
     </nav>
-
     <section class="intro">
         <div class="intro-body">
             <%- msg %>
@@ -65,6 +68,9 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">DODONA</h1>
+                       <!--  <p class="from_box" style="display:none;">A dedicated developer-led team. We are a close-knit group that have an innovative approach to programming.</p>
+                        <p class="from_box2" style="display:none;">We are a close-knit group that have an innovative approach to programming.</p>
+ -->
                         <p class="intro-text">A dedicated developer-led team. We are a close-knit group that have an innovative approach to programming.</p>
                         <div class="page-scroll">
                             <a href="#about" class="btn btn-circle">
@@ -85,15 +91,95 @@
                 <p>This is why we are an assembly of tech-only that work closely to produce progressive and advanced applications for founders.</p>
             </div>
 
-            <div class="col-lg-8 col-lg-offset-2" style='margin-top:100px;'>
+            <div class="col-lg-8 col-lg-offset-2" style="position:relative;">
+
+            <div class="spacer s2"></div>
+            <div id="trigger1" class="spacer s0"></div>
+            <svg width="740" height="1078" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" style="background-color:#ececec; margin-bottom: 30px;">
+             <g>
+              <g id="svg_6" style="stroke-linecap: round; stroke-linejoin: round;"
+                          stroke="#000000" stroke-width="5"  fill="#000000" transform="translate(0,1078) scale(0.10000000149011612,-0.10000000149011612) ">
+               <path id="svg_7" style="stroke-linecap: round; stroke-linejoin: round;"
+                          fill="none" stroke="#000000" stroke-width="15"  d="m1142,10078c-7,-7 -12,-41 -12,-81c0,-43 -4,-66 -10,-62c-5,3 -10,26 -10,50c0,48 -13,64 -35,45c-11,-9 -15,-36 -15,-105c0,-50 -3,-95 -6,-98c-4,-4 -22,7 -41,23c-38,34 -58,38 -67,13c-5,-12 11,-34 54,-78l62,-62l-11,-59c-32,-174 -179,-313 -352,-333c-63,-8 -86,-25 -66,-49c8,-10 25,-12 62,-8c191,25 333,140 395,321c21,61 27,160 10,170c-18,11 -11,25 13,25c13,0 39,-13 57,-30c38,-34 48,-37 57,-14c10,27 -19,63 -68,87c-27,12 -47,27 -45,32c4,14 73,8 125,-12l44,-16l-6,-106c-4,-73 -13,-131 -31,-187c-76,-237 -286,-407 -536,-432c-71,-7 -75,-8 -75,-32c0,-24 2,-25 60,-23c282,10 543,226 615,509c24,94 30,398 8,406c-25,10 -38,-4 -38,-40c0,-65 -19,-20 -22,53c-3,63 -5,70 -25,73c-23,3 -27,-9 -36,-98c-2,-19 -5,-3 -5,36c-2,62 -13,94 -32,94c-3,0 -11,-5 -18,-12z"/>
+               <path id="svg_8" style="stroke-linecap: round; stroke-linejoin: round;"
+                          fill="none" stroke="#000000" stroke-width="15"  d="m6033,8469c-135,-53 -218,-204 -191,-349c13,-73 38,-119 92,-171c43,-42 46,-47 46,-100l0,-56l55,-18c68,-21 201,-17 258,8c37,16 37,16 37,75c0,53 3,62 25,76c38,25 91,114 105,174c32,138 -38,285 -164,349c-71,37 -189,42 -263,12zm234,-39c158,-70 213,-270 114,-415c-61,-90 -184,-139 -287,-115c-96,23 -170,88 -205,181c-88,230 151,450 378,349zm15,-612c-5,-5 -38,-14 -73,-20c-51,-9 -77,-8 -124,3c-58,13 -60,15 -63,48c-3,31 -2,33 20,27c51,-16 163,-18 203,-3l40,14l3,-30c2,-16 -1,-34 -6,-39z"/>
+               <path id="svg_9" style="stroke-linecap: round; stroke-linejoin: round;"
+                          fill="none" stroke="#000000" stroke-width="15"  d="m5069,8068c-48,-27 -79,-83 -79,-142c0,-58 19,-97 66,-133c31,-23 47,-28 94,-28c47,0 63,5 94,28c46,36 68,78 68,133c0,125 -136,205 -243,142zm141,-23c68,-35 92,-124 51,-191c-20,-32 -74,-64 -111,-64c-37,0 -91,32 -111,64c-24,39 -25,113 -3,145c39,55 116,76 174,46z"/>
+               <path id="svg_10" style="stroke-linecap: round; stroke-linejoin: round;"
+                          fill="none" stroke="#000000" stroke-width="15"  d="m2682,6693c-97,-48 -117,-180 -38,-259c106,-106 276,-34 276,119c0,115 -131,193 -238,140zm139,-28c82,-43 92,-164 19,-222c-8,-7 -30,-17 -49,-22c-125,-36 -218,120 -129,217c41,44 105,55 159,27z"/>
+               <path id="svg_11" style="stroke-linecap: round; stroke-linejoin: round;"
+                          fill="none" stroke="#000000" stroke-width="15"  d="m1041,6480c-58,-50 -108,-95 -113,-102c-13,-22 -10,-232 5,-250c6,-9 59,-55 115,-102l104,-86l223,0l222,0l112,95l111,95l0,128l-1,127l-111,93l-111,92l-226,-1l-226,0l-104,-89zm623,-31c47,-40 86,-76 86,-80c0,-5 -41,-42 -90,-84l-91,-75l-197,0l-197,0l-90,76c-49,42 -89,79 -89,83c1,3 39,38 85,78l84,72l206,1l207,0l86,-71zm-596,-213l72,-60l0,-73c0,-40 -4,-73 -10,-73c-5,0 -43,30 -85,66l-75,65l0,75c0,86 -7,86 98,0zm702,-5l0,-79l-85,-71l-85,-72l0,79l0,80l83,71c45,38 83,70 85,71c1,0 2,-36 2,-79zm-220,-156l0,-85l-180,0l-180,0l0,85l0,85l180,0l180,0l0,-85z"/>
+               <path id="svg_12" style="stroke-linecap: round; stroke-linejoin: round;"
+                          fill="none" stroke="#000000" stroke-width="15"  d="m1225,6492c-63,-22 -125,-79 -125,-116c0,-125 245,-196 433,-126c142,53 152,166 19,228c-49,23 -72,27 -167,29c-82,2 -123,-2 -160,-15z"/>
+               <path id="svg_13" style="stroke-linecap: round; stroke-linejoin: round;"
+                          fill="none" stroke="#000000" stroke-width="15"  d="m5926,6238c-24,-34 -24,-573 0,-606c16,-23 19,-23 186,-21l170,2l24,-31c40,-50 150,-81 162,-44c2,7 -6,12 -24,12c-69,0 -135,58 -159,140c-6,20 3,15 48,-28c34,-34 57,-50 61,-43c4,7 -44,68 -113,144c-192,212 -205,233 -160,257c25,14 36,7 139,-90c41,-38 78,-70 82,-70c3,0 11,13 16,29c7,19 18,31 34,33c13,2 24,11 26,23c6,32 24,47 49,40c22,-5 28,3 24,29c-1,5 6,17 15,27c17,19 18,19 50,0c21,-13 36,-16 40,-10c8,14 -23,46 -53,54c-29,7 -73,-17 -73,-41c0,-8 -8,-17 -17,-21c-26,-9 -63,-44 -63,-60c0,-7 -7,-13 -15,-13c-8,0 -23,-9 -33,-20c-32,-35 -40,-7 -44,153c-3,133 -5,150 -22,163c-15,11 -57,14 -177,14c-152,0 -158,-1 -173,-22zm332,-20c8,-8 12,-52 12,-131l0,-119l-47,41c-25,23 -57,44 -70,47c-50,13 -98,-51 -75,-99c5,-12 46,-63 89,-113c69,-79 81,-98 87,-140c3,-26 2,-52 -2,-56c-5,-5 -76,-7 -158,-6l-149,3l-3,280c-1,154 0,285 3,292c6,18 296,18 313,1z"/>
+               <path id="svg_14" style="stroke-linecap: round; stroke-linejoin: round;"
+                          fill="none" stroke="#000000" stroke-width="15"  d="m6484,5096c-61,-27 -103,-111 -89,-182c10,-58 77,-120 138,-129c40,-6 56,-3 95,17c65,33 94,85 89,156c-8,117 -124,185 -233,138zm137,-31c104,-54 84,-212 -32,-245c-71,-21 -150,30 -164,103c-9,46 19,111 58,136c38,25 97,27 138,6z"/>
+               <path id="svg_15" style="stroke-linecap: round; stroke-linejoin: round;"
+                          fill="none" stroke="#000000" stroke-width="15"  d="m3591,4898c-5,-13 -30,-73 -55,-135l-46,-112l0,-315l0,-316l475,0l475,0l0,313l0,313l-54,134l-54,135l-366,3l-366,2l-9,-22zm293,-80c-4,-40 -10,-93 -13,-118l-6,-45l-163,-3c-129,-2 -162,0 -162,11c0,13 63,175 81,210c9,15 26,17 140,17l130,0l-7,-72zm463,-38c23,-58 43,-111 43,-118c0,-10 -36,-12 -162,-10l-162,3l-7,40c-4,22 -10,75 -14,118l-7,78l133,-3l132,-3l44,-105zm-479,-195c5,-54 7,-56 54,-39c37,13 47,13 84,0c23,-8 45,-12 48,-8c3,3 6,23 6,44l0,38l175,0l175,0l0,-280l0,-280l-445,0l-445,0l0,280l0,280l173,-2l172,-3l3,-30z"/>
+               <path id="svg_16" style="stroke-linecap: round; stroke-linejoin: round;"
+                          fill="none" stroke="#000000" stroke-width="15"  d="m890,4887c-50,-26 -90,-90 -90,-141c0,-51 40,-118 85,-144c50,-28 131,-26 172,4c52,39 68,71 68,137c0,75 -27,120 -89,148c-55,25 -94,24 -146,-4zm141,-29c94,-53 89,-194 -9,-235c-128,-53 -245,95 -160,203c24,29 70,53 107,54c13,0 41,-10 62,-22z"/>
+               <path id="svg_17" style="stroke-linecap: round; stroke-linejoin: round;"
+                          fill="none" stroke="#000000" stroke-width="15"  d="m5950,3428c-19,-21 -20,-34 -20,-304c0,-263 1,-283 19,-305l19,-24l325,0c305,0 326,1 346,19c20,19 21,27 21,312c0,291 0,293 -22,308c-19,14 -69,16 -345,16c-319,0 -322,0 -343,-22zm678,-10c7,-7 12,-27 12,-45l0,-33l-345,0l-345,0l0,26c0,14 5,34 10,45c10,18 25,19 333,19c238,0 326,-3 335,-12zm12,-335c0,-133 -5,-245 -10,-253c-14,-23 -621,-28 -656,-5l-24,15l0,240l0,240l345,0l345,0l0,-237z"/>
+               <path id="svg_18" style="stroke-linecap: round; stroke-linejoin: round;"
+                          fill="none" stroke="#000000" stroke-width="15"  d="m2605,3114c-44,-23 -66,-45 -81,-81c-62,-145 88,-285 225,-211c51,27 91,91 91,143c0,112 -138,200 -235,149zm136,-37c89,-59 86,-172 -4,-227c-61,-38 -144,-14 -179,51c-35,66 -12,147 52,181c46,24 90,23 131,-5z"/>
+               <path id="svg_19" style="stroke-linecap: round; stroke-linejoin: round;"
+                          fill="none" stroke="#000000" stroke-width="15"  d="m1515,2768c-3,-7 -6,-58 -7,-113c-2,-79 -6,-100 -17,-100c-8,0 -18,14 -23,32c-10,40 -51,73 -91,73c-39,0 -107,-66 -107,-104c0,-37 35,-35 55,4c13,25 42,50 59,50c2,0 12,-7 20,-16c11,-11 16,-35 16,-82c0,-81 -17,-112 -60,-112c-32,0 -40,9 -50,54c-4,22 -12,31 -25,31c-16,0 -21,-8 -23,-37c-2,-29 3,-43 26,-69c25,-27 34,-31 76,-31c59,2 63,-8 47,-102c-34,-204 -179,-359 -382,-410c-36,-9 -79,-16 -96,-16c-31,0 -44,-14 -36,-37c6,-18 85,-16 156,2c240,62 432,307 415,528c-3,29 -8,60 -12,70c-18,39 83,7 104,-34c12,-22 50,-23 57,-2c7,20 -59,83 -102,97c-27,10 -41,21 -43,35c-3,18 2,21 35,21c47,0 139,-24 160,-41c23,-20 13,-270 -14,-354c-73,-226 -232,-402 -443,-488c-80,-33 -180,-57 -241,-57c-25,0 -54,-6 -65,-14c-17,-14 -18,-16 -3,-31c14,-14 27,-15 105,-5c216,26 413,132 544,293c60,72 141,234 165,327c12,47 18,126 22,280c5,191 4,217 -11,229c-27,23 -46,-3 -46,-65c0,-41 -4,-54 -15,-54c-12,0 -15,22 -17,113c-3,108 -4,112 -25,115c-23,3 -23,1 -23,-97c0,-94 -1,-101 -20,-101c-18,0 -20,8 -22,112c-3,98 -5,113 -21,116c-9,2 -19,-2 -22,-10z"/>
+               <path id="svg_20" style="stroke-linecap: round; stroke-linejoin: round;"
+                          fill="none" stroke="#000000" stroke-width="15"  d="m4923,1533c-12,-2 -34,-18 -48,-34l-25,-31l0,-404c0,-455 0,-454 68,-474c23,-7 109,-10 234,-8l198,3l27,28l28,27l0,420l0,420l-28,27l-27,28l-203,1c-111,1 -212,0 -224,-3zm431,-59c14,-13 16,-65 16,-413c0,-327 -2,-401 -14,-417c-13,-18 -28,-19 -226,-19c-198,0 -213,1 -226,19c-11,16 -14,89 -14,414c0,252 4,400 10,413c10,18 23,19 225,19c181,0 216,-2 229,-16z"/>
+              </g>
+             </g>
+            </svg>
+            <div class="spacer s2"></div>
+            <img src='img/what_dodona_does.png' style='position:absolute; left:20px; top:0;'>
+        
+        <div class="spacer s_viewport"></div>
+
+            </div>
+
+            <!-- <div class="col-lg-8 col-lg-offset-2" style='margin-top:100px;'>
                 <p>
                     <img src='img/what_dodona_does.png' style='width:100%;'>
                 </p>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="counter" class="container text-center">
+        <div class="row full-width">
+            <div class="counter-hld col-lg-8 col-lg-offset-2">
+                <div>
+                    <div class="count titles col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <div class="counter-img git" alt=""></div>
+                    </div>
+                    <div class="count titles col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <div class="counter-img coffee" alt=""></div>
+                    </div>
+                    <div class="count titles col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <div class="counter-img pizza" alt=""></div>
+                    </div>
+                    <div class="count titles col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <div class="counter-img lines" alt=""></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="git-counter count numbers col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+                    <div class="coffee-counter count numbers col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+                    <div class="pizza-counter count numbers col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+                    <div class="code-counter count numbers col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+
+                </div>
+                <div>
+                    <div class="count titles col-xs-3 col-sm-3 col-md-3 col-lg-3">Git commits</div>
+                    <div class="count titles col-xs-3 col-sm-3 col-md-3 col-lg-3">Coffe cups</div>
+                    <div class="count titles col-xs-3 col-sm-3 col-md-3 col-lg-3">Pizzas eaten</div>
+                    <div class="count titles col-xs-3 col-sm-3 col-md-3 col-lg-3">Lines written</div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="download" class="content-section text-center">
+    <section id="download" class="text-center">
         <div class="download-section" id="team">
             <div class="container">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -101,61 +187,111 @@
                     <p>We have always pushed ourselves in using the latest tech and methods to develop our applications, <b>we have never built the same app twice</b>.</p>
 
                     <div class="row">
-                      <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail" style="background-image:url('img/iyad.jpg'); background-position: center center; background-size: auto 100%;">
-                          <div class="caption">
-                            <h3>Iyad Assaf</h3>
-                            <p>Middleware / Server-side programmer</p>
-                          </div>
-                        </div>
-                      </div>
 
                       <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail" style="background-image:url('img/ulp.jpg'); background-position: center center; background-size: 100% auto;">
+                        <!-- <div class="thumbnail" style="background-image:url('img/ulp.jpg'); background-position: center center; background-size: 100% auto;">
                           <div class="caption">
                             <h3>Ulpian Morina</h3>
                             <p>Lead Developer / Server-side &amp; API programmer</p>
                           </div>
-                        </div>
+                        </div> -->
+                        <figure class="thumbnail effect-lily" style="background-image:url('img/ulp.jpg'); background-position: center center; background-size: auto 100%;">
+                            <figcaption>
+                                <div style="height:27%; padding-top: 10px; width: 90%; background: rgba(0,0,0, .6); bottom: 21px; left: 16px;">
+                                    <div class="caption-bg"></div>
+                                    <h2 style="font-size: 24px; margin-bottom: 10px;">Ulpian <span>Morina</span></h2>
+                                    <p style="font-size: 16px;">Lead Developer / Server-side &amp; API programmer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
                       </div>
 
                       <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail" style="background-image:url('img/ifko.jpg'); background-position: center center; background-size: 100% auto;">
+                        <!-- <div class="thumbnail" style="background-image:url('img/ifko.jpg'); background-position: center center; background-size: 100% auto;">
                           <div class="caption">
                             <h3>Ivaylo Danev</h3>
                             <p>Front-end UI &amp; UX developer</p>
                           </div>
-                        </div>
+                        </div> -->
+                        <figure class="thumbnail effect-lily" style="background-image:url('img/ifko.jpg'); background-position: center center; background-size: auto 100%;">
+                            <figcaption>
+                                <div style="height:27%; padding-top: 10px; width: 89%; background: rgba(0,0,0, .6); bottom: 21px; left: 16px;">
+                                    <div class="caption-bg"></div>
+                                    <h2 style="font-size: 24px; margin-bottom: 10px;">Ivaylo <span>Danev</span></h2>
+                                    <p style="font-size: 16px;">Front-end UI &amp; UX developer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                      </div>
+
+                      <div class="col-sm-6 col-md-4">
+                        <figure class="thumbnail effect-lily" style="background-image:url('img/rad.jpg'); background-position: center center; background-size: auto 100%;">
+                            <figcaption>
+                                <div style="height:27%; padding-top: 10px; width: 90%; background: rgba(0,0,0, .6); bottom: 21px; left: 16px;">
+                                    <div class="caption-bg"></div>
+                                    <h2 style="font-size: 24px; margin-bottom: 10px;">Marian <span>Radev</span></h2>
+                                    <p style="font-size: 16px;">Front-end &amp; Graphic developer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
                       </div>
                     </div>
 
                     <div class="row">
-                    <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail" style="background-image:url('img/rad.jpg'); background-position: center center; background-size: auto 100%;">
+                      <div class="col-sm-6 col-md-4">
+                        <!-- <div class="thumbnail" style="background-image:url('img/iliyan.jpg'); background-position: center center; background-size: auto 100%;">
                           <div class="caption">
-                            <h3>Marian Radev</h3>
-                            <p>Front-end &amp; Graphic developer</p>
+                            <h3>Iliyan Vlahov</h3>
+                            <p>Middleware / Server-side programmer</p>
                           </div>
-                        </div>
+                        </div> -->
+                        <figure class="thumbnail effect-lily" style="background-image:url('img/iliyan.jpg'); background-position: center center; background-size: auto 100%;">
+                            <figcaption>
+                                <div style="height:27%; padding-top: 10px; width: 90%; background: rgba(0,0,0, .6); bottom: 21px; left: 16px;">
+                                    <div class="caption-bg"></div>
+                                    <h2 style="font-size: 24px; margin-bottom: 10px;">Iliyan <span>Vlahov</span></h2>
+                                    <p style="font-size: 16px;">Middleware / Server-side programmer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
                       </div>
 
                       <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail" style="background-image:url('img/edon.jpg'); background-position: center center; background-size: auto 100%;">
+                        <!-- <div class="thumbnail" style="background-image:url('img/edon.jpg'); background-position: center center; background-size: auto 100%;">
                           <div class="caption">
                             <h3>Edon Budakova</h3>
                             <p>Project Manager / Marketing</p>
                           </div>
-                        </div>
+                        </div> -->
+                        <figure class="thumbnail effect-lily" style="background-image:url('img/edon.jpg'); background-position: center center; background-size: auto 100%;">
+                            <figcaption>
+                                <div style="height:27%; padding-top: 10px; width: 89%; background: rgba(0,0,0, .6); bottom: 21px; left: 16px;">
+                                    <div class="caption-bg"></div>
+                                    <h2 style="font-size: 24px; margin-bottom: 10px;">Edon <span>Budakova</span></h2>
+                                    <p style="font-size: 16px;">Project Manager / Marketing</p>
+                                </div>
+                            </figcaption>
+                        </figure>
                       </div>
 
                       <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail" style="background-image:url('img/ij.jpg'); background-position: center center; background-size: auto 100%;">
+                        <!-- <div class="thumbnail" style="background-image:url('img/ij.jpg'); background-position: center center; background-size: auto 100%;">
                           <div class="caption">
                             <h3>Ijtaba Hussain</h3>
                             <p>Mobile &amp; server-side engineer</p>
                           </div>
-                        </div>
+                        </div> -->
+                        <figure class="thumbnail effect-lily" style="background-image:url('img/ij.jpg'); background-position: center center; background-size: auto 100%;">
+                            <figcaption>
+                                <div style="height:27%; padding-top: 10px; width: 90%; background: rgba(0,0,0, .6); bottom: 21px; left: 16px;">
+                                    <div class="caption-bg"></div>
+                                    <h2 style="font-size: 24px; margin-bottom: 10px;">Ijtaba <span>Hussain</span></h2>
+                                    <p style="font-size: 16px;">Mobile &amp; server-side engineer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
                       </div>
+
                     </div>
 
                     <div style='margin-top:100px;'>
@@ -174,29 +310,216 @@
 
     <section id="contact" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2" style="padding-bottom:100px;">
+            <div class="col-lg-8 col-lg-offset-2">
                 <h2>Let's get started</h2>
                 <p>We receive a number of projects at a time and we take time to choose a project because once we do pick a project to work on we completely dedicate ourselves on that <b>one</b> project. Therefore we cannot guarantee that we can work on your project but we can guarantee that we will take all our time and knowledge to know more about your project before making a decision.</p>
-                <p>
-                    <form action="/" method="post">
-                    <input type="text" placeholder="Your name" name="name">
-                    <input type="text" placeholder="Short description of your app/project/idea" name="desc">
-                    <input type="text" placeholder="Email" name="email">
-                    <input type="submit" value="Submit" class="subbut">
+            </div>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+                <form id="theForm" class="simform" autocomplete="off" action="/" method="post">
+                        <div class="simform-inner">
+                            <ol class="questions">
+                                <li>
+                                    <span><label for="q1">Your name:</label></span>
+                                    <input id="q1" name="name" type="text"/>
+                                </li>
+                                <li>
+                                    <span><label for="q2">Short description of your app/project/idea:</label></span>
+                                    <input id="q2" name="desc" type="text"/>
+                                </li>
+                                <li>
+                                    <span><label for="q3">Email:</label></span>
+                                    <input id="q3" name="email" type="text"/>
+                                </li>
+
+                            </ol><!-- /questions -->
+                            
+                            <button class="submit" type="submit">Send answers</button>
+                            
+                            <div class="controls">
+                                <button class="next"></button>
+                                <div class="progress"></div>
+                                <span class="number">
+                                    <span class="number-current"></span>
+                                    <span class="number-total"></span>
+                                </span>
+                                <span class="error-message"></span>
+                            </div><!-- / controls -->
+                        </div><!-- /simform-inner -->
+                       
+                        <span class="final-message"></span>
                     </form>
-                </p>
             </div>
         </div>
     </section>
 
+    <!-- Scroll -->
+    <script src="/javascripts/jquery.mCustomScrollbar.concat.min.js"></script>
+
     <!-- Core JavaScript Files -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="/javascripts/jquery.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="/javascripts/jquery.easing.min.js"></script>
 
+    <!-- Fallbacks for old browsers -->
+    <script src="/javascripts/modernizr.custom.js"></script>
+
+    <!-- Skrollr js -->
+    <script src="/javascripts/skrollr.min.js"></script>
+    
     <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+    <script src="/javascripts/grayscale.js"></script>
 
+    <!-- CouterUp JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="javascripts/jquery.counterup.min.js"></script>
+   
+    <!-- Forms JavaScript -->
+    <script src="/javascripts/classie.js"></script>
+    <script src="/javascripts/stepsForm.js"></script>
+    
+    <!-- Skrollr JS -->
+    <script type="text/javascript" src="/javascripts/TweenMax.min.js"></script>
+    <script type="text/javascript" src="/javascripts/general.js"></script>
+    <script type="text/javascript" src="/javascripts/highlight.pack.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.scrollmagic.min.js"></script>
+    <script type="text/javascript" src="/javascripts/jquery.scrollmagic.debug.js"></script>
+
+
+    <script>
+        $(document).ready(function populateCounters() {
+            //Set the two dates
+            var millennium = new Date(2013, 5, 1) //Month is 0-11 in JavaScript
+            today = new Date()
+            //Get 1 day in milliseconds
+            var one_day=1000*60*60*24
+
+            //Calculate difference btw the two dates, and convert to days
+            var dateDifference = Math.ceil((today.getTime()-millennium.getTime())/(one_day));
+
+            // var base = dateDifference;
+            var weeks = Math.round(dateDifference / 7);
+
+            $('.git-counter').html(dateDifference * 123);
+            $('.coffee-counter').html(dateDifference * 8);
+            $('.pizza-counter').html(weeks * 3);
+            $('.code-counter').html(dateDifference * 764);
+
+            $('.git-counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+
+            $('.coffee-counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+
+             $('.pizza-counter').counterUp({
+                delay: 20,
+                time: 1000
+            });
+
+             $('.code-counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+
+
+        var theForm = document.getElementById( 'theForm' );
+
+        new stepsForm( theForm, {
+            onSubmit : function( form ) {
+                // hide form
+                classie.addClass( theForm.querySelector( '.simform-inner' ), 'hide' );
+
+                /*
+                form.submit()
+                or
+                AJAX request (maybe show loading indicator while we don't have an answer..)
+                */
+
+                // let's just simulate something...
+                var messageEl = theForm.querySelector( '.final-message' );
+                messageEl.innerHTML = 'Thank you! We\'ll be in touch.';
+                classie.addClass( messageEl, 'show' );
+            }
+        } );
+
+         $(document).ready(function($) {
+
+                function pathPrepare($el) {
+                    // console.log($el[0]);
+                    var lineLength = $el[0].getTotalLength();
+                    $el.css("stroke-dasharray", lineLength);
+                    $el.css("stroke-dashoffset", lineLength);
+                }
+
+                // var $svg_6 = $("path#svg_6");
+                var $svg_7 = $("path#svg_7");
+                var $svg_8 = $("path#svg_8");
+                var $svg_9 = $("path#svg_9");
+                var $svg_10 = $("path#svg_10");
+                var $svg_11 = $("path#svg_11");
+                var $svg_12 = $("path#svg_12");
+                var $svg_13 = $("path#svg_13");
+                var $svg_14 = $("path#svg_14");
+                var $svg_15 = $("path#svg_15");
+                var $svg_16 = $("path#svg_16");
+                var $svg_17 = $("path#svg_17");
+                var $svg_18 = $("path#svg_18");
+                var $svg_19 = $("path#svg_19");
+                var $svg_20 = $("path#svg_20");
+
+
+                // prepare SVG
+                // pathPrepare($svg_6);
+                pathPrepare($svg_7);
+                pathPrepare($svg_8);
+                pathPrepare($svg_9);
+                pathPrepare($svg_10);
+                pathPrepare($svg_11);
+                pathPrepare($svg_12);
+                pathPrepare($svg_13);
+                pathPrepare($svg_14);
+                pathPrepare($svg_15);
+                pathPrepare($svg_16);
+                pathPrepare($svg_17);
+                pathPrepare($svg_18);
+                pathPrepare($svg_19);
+                pathPrepare($svg_20);
+
+
+                // init controller
+                var controller = new ScrollMagic();
+
+                // build tween
+                var tween = new TimelineMax()
+                    // .add(TweenMax.to($svg_6, 0.9, {strokeDashoffset: 0, ease:Linear.easeNone})) // draw word for 0.9
+                    .add(TweenMax.to($svg_7, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))
+                    .add(TweenMax.to($svg_8, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))
+                    .add(TweenMax.to($svg_9, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))
+                    .add(TweenMax.to($svg_10, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))
+                    .add(TweenMax.to($svg_11, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))
+                    .add(TweenMax.to($svg_12, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))
+                    .add(TweenMax.to($svg_13, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))
+                    .add(TweenMax.to($svg_14, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))
+                    .add(TweenMax.to($svg_15, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))
+                    .add(TweenMax.to($svg_16, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))
+                    .add(TweenMax.to($svg_17, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))
+                    .add(TweenMax.to($svg_18, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))
+                    .add(TweenMax.to($svg_19, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))
+                    .add(TweenMax.to($svg_20, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))
+
+                // build scene
+                var scene = new ScrollScene({triggerElement: "#trigger1", duration: 1078, tweenChanges: true})
+                                .setTween(tween)
+                                .addTo(controller);
+
+                // show indicators (requires debug extension)
+                // scene.addIndicators();
+        });
+    </script>
 </body>
 
 </html>
