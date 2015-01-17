@@ -147,7 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/Dodona_fade.png) no-repeat bottom center scroll;
+    background: url(../img/Dodona_fade.jpg) no-repeat bottom center scroll;
     background-color: #7A1616;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -265,7 +265,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/Dodona_fade_blur.png) no-repeat center center scroll;
+    background: url(../img/Dodona_fade_blur.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
