@@ -52,9 +52,9 @@ input {
 	background-image: url(../img/counter_g.png);
 }
 
-.pizza {
+/*.pizza {
 	background-image: url(../img/counter_p.png);
-}
+}*/
 
 .lines {
 	background-image: url(../img/counter_l.png);
@@ -63,7 +63,9 @@ input {
 .coffee {
 	background-image: url(../img/counter_c.png);
 }
-
+.stairs{
+	background-image: url(../img/stairs.png);
+}
 .full-width {
 	margin-right: 0;
 	margin-left: 0;
@@ -520,6 +522,17 @@ input[type=text]::-ms-clear {
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
 }
+
+.separator {
+	width: 50px;
+	height: 10px;
+	border-bottom: 1px solid #A22C2C;
+	margin: 0 auto;
+}
+
+.push-bottom {
+	margin-bottom: 20px;
+}
 @media screen and (min-width: 50em) {
 	/* Individual effects */
 
@@ -705,4 +718,191 @@ input[type=text]::-ms-clear {
 	.action-button {
 		float: none !important;
 	}
+}
+
+.contact-us-hld {
+	background: #fff;
+	color: #000;
+}
+
+/*Style map*/
+#map_canvas {
+	height: 200px;
+	/*max-width: 800px;*/
+	border:5px solid white;
+	margin: 0px auto;
+}
+
+#locations li:hover, #locations li.hover { 
+	background: url(../img/flash.png)128px 0 repeat-y b;
+	background: transparent;
+	list-style: none;
+}
+/*Style contact us information, text, buttons and icons.*/
+
+.cont-hght {
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+.contact-btns {
+	/*float: left;*/
+}
+
+.contact-info {
+	height: 200px;
+	/*background-color: grey;*/
+}
+
+.push-btm {
+	margin-bottom: 20px;
+}
+
+.social-btn {
+	border: none;
+	background: transparent;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.social-btn .social-block {
+	font-size: 23px;
+	text-align: center;
+	display: inline-block;
+	width: 45px;
+	vertical-align: middle;
+	height: 60px;
+	line-height: 60px;
+}
+
+.social-btn .social-text {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 200px;
+	margin-left: -5px;
+	letter-spacing: .02em;
+	height: 60px;
+	line-height: 60px;
+}
+
+.social-btn#Facebook {
+	float: right;
+}
+
+.social-btn#Facebook .social-block {
+  background: #273f76;
+}
+.social-btn#Facebook:hover .social-block {
+  background: #3E5B9D;
+}
+
+.social-btn#Facebook:hover .social-text {
+  text-shadow: 0 0 2px #fff;
+}
+
+#facebook-custom {
+	vertical-align: middle;
+}
+
+#Facebook .social-text {
+	background: #39579a;
+	color: #fff;
+	-moz-transition: -moz-background .2s;
+	-o-transition: -o-background .2s;
+	-webkit-transition: -webkit-background .2s;
+	transition: background .2s;
+}
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #fff;
+}
+
+#GooglePlus .social-block {
+	background: #ad1919;
+}
+
+.social-btn#GooglePlus:hover .social-block {
+  background: #CA1C1C;
+}
+
+.social-btn#GooglePlus:hover .social-text {
+  text-shadow: 0 0 1px #000;
+}
+
+#google-plus-custom {
+	vertical-align: middle;
+}
+
+#GooglePlus .social-text {
+	background: #fff;
+	color: #4d4d4d;
+	border: solid 1px #cdcdcd;
+	border-left: none;
+}
+
+.user-input-group {
+	width: 341px;
+	margin: 10px auto 20px;
+	position: relative;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.social-btn#GitHub {
+	float: left;
+}
+#GitHub .social-block {
+	background: #000;
+}
+
+.social-btn#GitHub:hover .social-block {
+  background: #2C2A2A;
+}
+
+.social-btn#GitHub:hover .social-text {
+  text-shadow: 0 0 1px #000;
+}
+
+#github-custom {
+	vertical-align: middle;
+}
+
+#GitHub .social-text {
+	background: #d4d4d4;
+	color: #4d4d4d;
+	border: solid 1px #afb9ba;
+	border-left: none;
+}
+
+.info-name {
+	margin: 0 0 35px;
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+/*Remove terms, conditions and google profile image from map*/
+
+a[href^="http://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}
+
+.gmnoprint:last-child {
+    display: none !important;
 }

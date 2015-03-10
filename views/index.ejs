@@ -55,6 +55,9 @@
                     <li class="page-scroll">
                         <a href="#contact">Start</a>
                     </li>
+                     <li class="page-scroll">
+                        <a href="#gmap">Contacts</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -90,12 +93,13 @@
                 <p>We are a team of developers that take a straight, dedicated and innovative approach to web application and software building. We think that working on projects should be an alliance of the project's founders and the developers/engineers working in the project.</p>
                 <p>This is why we are an assembly of tech-only that work closely to produce progressive and advanced applications for founders.</p>
             </div>
-
-            <div class="col-lg-8 col-lg-offset-2" style="position:relative;">
+    </section>
+    <section id="how" style="width: auto; background-color: #ECECEC;" class="content-section text-center">
+            <div style="position:relative; margin: 0 auto; width: 740px;">
 
             <div class="spacer s2"></div>
             <div id="trigger1" class="spacer s0"></div>
-            <svg class="hidden-xs hidden-sm" width="740" height="1078" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" style="background-color:#ececec; margin-bottom: 30px;">
+            <svg class="hidden-xs hidden-sm" width="740" height="1078" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" style="background-color:#ececec;">
              <g>
               <g id="svg_6" style="stroke-linecap: round; stroke-linejoin: round;"
                           stroke="#000000" stroke-width="5"  fill="#000000" transform="translate(0,1078) scale(0.10000000149011612,-0.10000000149011612) ">
@@ -131,7 +135,7 @@
              </g>
             </svg>
             <div class="spacer s2"></div>
-            <img src='img/what_dodona_does.png' class="hidden-xs hidden-sm"  style='position:absolute; left:20px; top:0;'>
+            <img src='img/what_dodona_does.png' class="hidden-xs hidden-sm"  style='position:absolute; left:0px; top:0;'>
         
         <div class="spacer s_viewport"></div>
 
@@ -149,29 +153,35 @@
         <div class="row full-width">
             <div class="counter-hld col-xs-12 col-sm-12 col-lg-8 col-lg-offset-2">
                 <div>
-                    <div class="count titles col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="count titles col-xs-12 col-sm-12 col-md-6 col-lg-3 push-bottom">
                         <div class="counter-img git" alt=""></div>
                         <div class="git-counter count numbers"></div>
                         <div class="count titles">Git commits</div>
-
+                        <div class="separator"></div>
                     </div>
-                    <div class="count titles col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="count titles col-xs-12 col-sm-12 col-md-6 col-lg-3 push-bottom">
+                      <div class="counter-img stairs" alt=""></div>
+                      <div class="stairs-counter count numbers"></div>
+                      <div class="count titles">Stairs conquered</div>
+                      <div class="separator"></div>
+                    </div>
+                    <div class="count titles col-xs-12 col-sm-12 col-md-6 col-lg-3 push-bottom">
                         <div class="counter-img coffee" alt=""></div>
                         <div class="coffee-counter count numbers"></div>
                         <div class="count titles">Coffe cups</div>
-
+                        <div class="separator"></div>
                     </div>
-                    <div class="count titles col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                    <!-- <div class="count titles col-xs-12 col-sm-12 col-md-6 col-lg-3 push-bottom">
                         <div class="counter-img pizza" alt=""></div>
                         <div class="pizza-counter count numbers"></div>
                         <div class="count titles">Pizzas eaten</div>
-
-                    </div>
+                        <div class="separator"></div>
+                    </div> -->
                     <div class="count titles col-xs-12 col-sm-12 col-md-6 col-lg-3">
                         <div class="counter-img lines" alt=""></div>
                         <div class="code-counter count numbers"></div>
                         <div class="count titles">Lines written</div>
-
+                        <div class="separator"></div>
                     </div>
                 </div>
             </div>
@@ -313,45 +323,112 @@
                 <h2>Let's get started</h2>
                 <p>We receive a number of projects at a time and we take time to choose a project because once we do pick a project to work on we completely dedicate ourselves on that <b>one</b> project. Therefore we cannot guarantee that we can work on your project but we can guarantee that we will take all our time and knowledge to know more about your project before making a decision.</p>
             </div>
-        <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
-                <form id="theForm" class="simform" autocomplete="off" action="/" method="post">
-                        <div class="simform-inner">
-                            <ol class="questions">
-                                <li>
-                                    <span><label for="q1">Your name:</label></span>
-                                    <input id="q1" name="name" type="text"/>
-                                </li>
-                                <li>
-                                    <span><label for="q2">Short description of your app/project/idea:</label></span>
-                                    <input id="q2" name="desc" type="text"/>
-                                </li>
-                                <li>
-                                    <span><label for="q3">Email:</label></span>
-                                    <input id="q3" name="email" type="text"/>
-                                </li>
+        </div>    
+        <div class="row">    
+          <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+                  <form id="theForm" class="simform" autocomplete="off" action="/" method="post">
+                          <div class="simform-inner">
+                              <ol class="questions">
+                                  <li>
+                                      <span><label for="q1">Your name:</label></span>
+                                      <input id="q1" name="name" type="text"/>
+                                  </li>
+                                  <li>
+                                      <span><label for="q2">Short description of your app/project/idea:</label></span>
+                                      <input id="q2" name="desc" type="text"/>
+                                  </li>
+                                  <li>
+                                      <span><label for="q3">Email:</label></span>
+                                      <input id="q3" name="email" type="text"/>
+                                  </li>
 
-                            </ol><!-- /questions -->
-                            
-                            <button class="submit" type="submit">Send answers</button>
-                            
-                            <div class="controls">
-                                <button class="next"></button>
-                                <div class="progress"></div>
-                                <span class="number">
-                                    <span class="number-current"></span>
-                                    <span class="number-total"></span>
-                                </span>
-                                <span class="error-message"></span>
-                            </div><!-- / controls -->
-                        </div><!-- /simform-inner -->
-                       
-                        <span class="final-message"></span>
-                    </form>
-            </div>
+                              </ol><!-- /questions -->
+                              
+                              <button class="submit" type="submit">Send answers</button>
+                              
+                              <div class="controls">
+                                  <button class="next"></button>
+                                  <div class="progress"></div>
+                                  <span class="number">
+                                      <span class="number-current"></span>
+                                      <span class="number-total"></span>
+                                  </span>
+                                  <span class="error-message"></span>
+                              </div><!-- / controls -->
+                          </div><!-- /simform-inner -->
+                         
+                          <span class="final-message"></span>
+                      </form>
+              </div>
         </div>
     </section>
 
-    <!-- Core JavaScript Files -->
+    <section id="gmap" class="container text-center">
+      <div class="col-lg-10 col-lg-offset-1">
+            <h2>Contact Us</h2>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 cont-hght">
+              <div class="contact-info">
+                <div class="info-name">
+                  DODONA
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="row">    
+            
+              <div class="contact-btns">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="social-btn" value="GitHub" name="provider" id="GitHub">
+                    <a href="https://github.com">
+                      <div class="social-block">
+                        <span class="fa fa-github" id="gthub-custom"></span>
+                      </div>
+                      <div class="social-text">Find us on GitHub </div>
+                    </a>  
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="social-btn" value="GooglePlus" name="provider" id="GooglePlus">
+                    <a href="https://plus.google.com/101199864644709800284/posts">
+                      <div class="social-block">
+                        <span class="fa fa-google-plus fa-custom" id="google-plus-custom"></span>
+                      </div>
+                      <div class="social-text">Find us on Google+ </div>
+                    </a>  
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">  
+                  <div class="social-btn" value="Facebook" name="provider" id="Facebook">
+                    <a href="https://www.facebook.com/pages/Dodona/274310049435957?fref=ts">
+                      <div class="social-block">
+                        <span class="fa fa-facebook fa-custom" id="facebook-custom"></span>
+                      </div>
+                      <div class="social-text">Find us on Facebook </div>
+                    </a>  
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+        </div>
+        <div class="col-lg-10 col-lg-offset-1">
+          <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 push-btm">
+                <ul id="locations">
+                  <li data-geo-lat="42.6977744" data-geo-long="23.315916300000026"></li>
+                </ul>
+                <div id="map_canvas"></div>
+              </div>
+          </div>
+        </div>
+
+    </section>
+
+<!-- Core JavaScript Files -->
     <script src="/javascripts/jquery.min.js"></script>
     <script src="/javascripts/bootstrap.min.js"></script>
     <script src="/javascripts/jquery.easing.min.js"></script>
@@ -379,6 +456,10 @@
     <script type="text/javascript" src="/javascripts/highlight.pack.js"></script>
     <script type="text/javascript" src="/javascripts/jquery.scrollmagic.min.js"></script>
     <script type="text/javascript" src="/javascripts/jquery.scrollmagic.debug.js"></script>
+ 
+   <!-- Google maps Js
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>  -->
+   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
 
 
     <script>
@@ -395,10 +476,11 @@
             // var base = dateDifference;
             var weeks = Math.round(dateDifference / 7);
 
-            $('.git-counter').html(dateDifference * 123);
+            $('.git-counter').html(dateDifference * 50);
             $('.coffee-counter').html(dateDifference * 8);
-            $('.pizza-counter').html(weeks * 3);
+            // $('.pizza-counter').html(weeks * 3);
             $('.code-counter').html(dateDifference * 764);
+            $('.stairs-counter').html(dateDifference * 900);
 
             $('.git-counter').counterUp({
                 delay: 10,
@@ -410,12 +492,17 @@
                 time: 1000
             });
 
-             $('.pizza-counter').counterUp({
-                delay: 20,
+            //  $('.pizza-counter').counterUp({
+            //     delay: 20,
+            //     time: 1000
+            // });
+            
+             $('.code-counter').counterUp({
+                delay: 10,
                 time: 1000
             });
 
-             $('.code-counter').counterUp({
+             $('.stairs-counter').counterUp({
                 delay: 10,
                 time: 1000
             });
@@ -520,6 +607,99 @@
             };
                 
         });
+        // var map;
+        // function initialize() {
+
+        //  var mapOptions = {
+        //       zoom: 8,
+        //       center: new google.maps.LatLng(42.6977082, 23.321867500000053)
+        //     };
+        //     map = new google.maps.Map(document.getElementById('map_canvas'),
+        //         mapOptions);
+        //   }
+
+        //   google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
+       $(function() {
+    
+          var sofia = new google.maps.LatLng(42.6977082, 23.321867500000053),
+              pointToMoveTo, 
+              first = true,
+              curMarker = new google.maps.Marker({}),
+              $el;
+          
+          var myOptions = {
+              zoom: 16,
+              center: sofia,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+          
+          var map = new google.maps.Map($("#map_canvas")[0], myOptions);
+        
+          $("#locations li").mouseenter(function() {
+          
+            $el = $(this);
+                    
+            if (!$el.hasClass("hover")) {
+            
+              $("#locations li").removeClass("hover");
+              $el.addClass("hover");
+            
+              if (!first) { 
+                curMarker.setMap(); 
+              }
+              
+              // Move (pan) map to new location
+              pointToMoveTo = new google.maps.LatLng($el.attr("data-geo-lat"), $el.attr("data-geo-long"));
+              map.panTo(pointToMoveTo);
+              
+              // Add new marker
+              curMarker = new google.maps.Marker({
+                  position: pointToMoveTo,
+                  map: map,
+                  draggable:true,
+                  panControl: false,
+                  zoomControl: false,
+                  scaleControl: false,
+
+                  animation: google.maps.Animation.DROP,
+                  icon: "img/flash.png"
+              });
+              
+              // On click, zoom map
+              google.maps.event.addListener(curMarker, 'click', function() {
+                 map.setZoom(14);
+              });
+              // No longer the first time through (re: marker clearing)        
+              first = false; 
+            }
+            
+          });
+          
+          $("#locations li:first").trigger("mouseenter");
+             // Remove "Report a map error from map".           
+          var styleOptions = {
+            name: "Dummy Style"
+          };
+
+          var MAP_STYLE = [
+            {
+              featureType: "road",
+              elementType: "all",
+              stylers: [
+                  { visibility: "on" }
+              ]
+            }
+          ];
+          
+          var mapType = new google.maps.StyledMapType(MAP_STYLE, styleOptions);
+          map.mapTypes.set("Dummy Style", mapType);
+          map.setMapTypeId("Dummy Style");
+            
+        });
+
     </script>
 </body>
 
